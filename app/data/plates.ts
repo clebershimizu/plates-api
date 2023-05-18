@@ -1,4 +1,4 @@
-export const plates: Plate[] | undefined = [
+const plates: Plate[] = [
     {
         id: 1,
         plateNumber: "BDQ0E53",
@@ -7,6 +7,7 @@ export const plates: Plate[] | undefined = [
         year: "2019",
         state: "PR",
         city: "SAO JOSE DOS PINHAIS",
+        products: ['Product 1', 'Product 2', 'Product 3'],
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ export const plates: Plate[] | undefined = [
         year: "2022",
         state: "PR",
         city: "SAO JOSE DOS PINHAIS",
+        products: ['Product 1', 'Product 2', 'Product 3'],
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ export const plates: Plate[] | undefined = [
         year: "2012",
         state: "PR",
         city: "SAO JOSE DOS PINHAIS",
+        products: ['Product 1', 'Product 2', 'Product 3'],
     },
     {
         id: 4,
@@ -34,5 +37,8 @@ export const plates: Plate[] | undefined = [
         year: "2021",
         state: "PR",
         city: "CURITIBA",
+        products: ['Product 1', 'Product 2', 'Product 3'],
     }
 ]
+
+export default plates;
