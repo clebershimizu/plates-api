@@ -32,8 +32,8 @@ const Home: React.FC = () => {
           <p>No plates found.</p>
         ) : (
           searchResults.map((plate) => (
-            <div key={plate.id} onClick={() => handlePlateClick(plate.plateNumber)}>
-              <p>Plate Number: {plate.plateNumber}</p>
+            <div key={plate.id} onClick={() => handlePlateClick(plate.plateNumber)} >
+              <p style={{color: "blue"}}>Plate Number: {plate.plateNumber}</p>
               <p>Brand: {plate.brand}</p>
               <p>Model: {plate.model}</p>
               <p>Year: {plate.year}</p>
