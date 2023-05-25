@@ -7,7 +7,7 @@ const plates: Plate[] = [
         year: "2019",
         state: "PR",
         city: "SAO JOSE DOS PINHAIS",
-        products: ['Product 1', 'Product 2', 'Product 3'],
+        products: ['Chicote A-1', 'Atuador 2XV', 'Bobina HY7'],
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const plates: Plate[] = [
         year: "2022",
         state: "PR",
         city: "SAO JOSE DOS PINHAIS",
-        products: ['Product 1', 'Product 2', 'Product 3'],
+        products: ['Product 1', 'Product 12', 'Product 31'],
     },
     {
         id: 3,
